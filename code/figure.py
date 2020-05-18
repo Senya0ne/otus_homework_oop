@@ -22,7 +22,13 @@ class Triangle(Figure):
     def get_area(self, a, h):
         super().get_area()
         area = 0.5 * (a * h)
-        return area
+        return f'Площадь {self.name} равна ' + str(area)
+
+    def get_angles(self, angles):
+        pass
+
+    def get_perimeter(self, perimeter):
+        pass
 
 
 #
