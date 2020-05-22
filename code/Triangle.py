@@ -12,10 +12,11 @@ class Triangle(Figure):
         return f'Площадь {self.name}а равна ' + str(s)
 
     def get_angles(self, angles):
-        pass
+        return f'Количество углов равно '
 
     def get_perimeter(self, perimeter):
-        pass
+        super().get_perimeter()
+        return f'Периметр {self.name}а равна ' + str(p)
 
 
 triangle = Triangle('Треугольник')
