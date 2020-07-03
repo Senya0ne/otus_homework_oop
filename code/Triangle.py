@@ -19,7 +19,7 @@ class Triangle(Figure):
 
 
 triangle = Triangle('Треугольник', 3)
-print(triangle.name, triangle.get_angles(3))
+print(triangle.name, '\n', triangle.get_angles(3))
 
 a = triangle.get_area(1, 5)
 print(a)
